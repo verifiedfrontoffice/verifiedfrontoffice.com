@@ -102,8 +102,7 @@ img, svg { display: block; }
 .record-row { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 16px; align-items: baseline; padding: 20px 0; border-bottom: 1px solid var(--rule); }
 .record-row:last-child { border-bottom: 0; }
 .record dt { font-family: var(--mono); font-size: 12px; letter-spacing: 0.2em; color: var(--brass-text); }
-.record dd { margin: 0; font-size: 17px; line-height: 1.5; }
-.record dd a { font-size: 19px; }
+.record dd { margin: 0; min-width: 0; font-size: 17px; line-height: 1.5; overflow-wrap: anywhere; }
 
 /* Footer */
 .site-footer { background: var(--vault); color: var(--footer-text); font-size: 14px; line-height: 1.6; }
